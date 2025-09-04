@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Website header -->
+<header>
+    <h1>About Me</h1>
+    <p>Welcome to my personal page!</p>
+</header>
+
+<!-- Container to hold both info card and contact form -->
+<div class="container">
+    <!-- Card 1: Personal Introduction -->
+    <div class="card">
+        <h2>👋 Hello!</h2>
+        <p>I'm a passionate web development enthusiast learning HTML, CSS, and JavaScript.</p>
+        <p>I love creating cool websites and learning new tech!</p>
+    </div>
+
+    <!-- Card 2: Contact Form -->
+    <div class="card">
+        <h2>📬 Contact Me</h2>
+        <form id="contactForm">
+            <!-- Input for name -->
+            <input type="text" id="name" placeholder="Your Name" required />
+            <!-- Input for email -->
+            <input type="email" id="email" placeholder="Your Email" required />
+            <!-- Textarea for message -->
+            <textarea id="message" placeholder="Your Message" rows="4" required></textarea>
+            <!-- Submit button -->
+            <button type="submit">Send</button>
+            <!-- Message area to display result -->
+            <p id="formMsg" style="color: green;"></p>
+        </form>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    &copy; 2025 Web Dev Workshop | Built with 💖 using HTML, CSS & JS
+</footer>
+
+<!-- Link to external JavaScript file -->
+<script src="script.js"></script>
+</body>
+</html>

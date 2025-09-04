@@ -1,0 +1,75 @@
+/* Custom Gold Color Overrides - Shiny Gold Theme */
+.btn-warning, .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
+  background-color: #ffd700 !important;
+  border-color: #ffd700 !important;
+  color: #000000 !important;
+}
+
+.alert-warning {
+  background-color: #fff8dc !important;
+  border-color: #ffd700 !important;
+  color: #8b4513 !important;
+}
+
+.badge-warning {
+  background-color: #ffd700 !important;
+  color: #000000 !important;
+}
+
+.text-warning {
+  color: #ffd700 !important;
+}
+
+.bg-warning {
+  background-color: #ffd700 !important;
+}
+
+.border-warning {
+  border-color: #ffd700 !important;
+}
+
+/* Override any remaining yellow colors */
+*[style*="#ffc107"], *[style*="#ffce6c"], *[style*="#fff3cd"], *[style*="#ffeeba"], *[style*="#ffe8a1"], *[style*="#ffdf7e"] {
+  background-color: #ffd700 !important;
+  border-color: #ffd700 !important;
+  color: #000000 !important;
+}
+
+/* Additional gold styling for better visibility */
+.btn-primary {
+  background-color: #ffd700 !important;
+  border-color: #ffd700 !important;
+  color: #000000 !important;
+}
+
+.btn-primary:hover {
+  background-color: #ffb347 !important;
+  border-color: #ffb347 !important;
+  color: #000000 !important;
+}
+
+/* Progress bars with gold */
+.progress-bar {
+  background-color: #ffd700 !important;
+}
+
+/* Links with gold */
+a {
+  color: #ffd700 !important;
+}
+
+a:hover {
+  color: #ffb347 !important;
+}
+
+/* Shiny gold effects */
+.btn-warning, .btn-primary {
+  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3) !important;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+.btn-warning:hover, .btn-primary:hover {
+  box-shadow: 0 6px 20px rgba(255, 215, 0, 0.5) !important;
+  transform: translateY(-2px) !important;
+  transition: all 0.3s ease !important;
+}
