@@ -11,7 +11,7 @@
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
-  --yellow: #ffc107;
+  --yellow: #4a4a4a;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
@@ -22,7 +22,7 @@
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
-  --warning: #ffc107;
+  --warning: #4a4a4a;
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
@@ -45,6 +45,669 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/* Red-Blue Gradient Theme */
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-wrap .overlay {
+  background: linear-gradient(135deg, rgba(220, 53, 69, 0.8), rgba(0, 123, 255, 0.8));
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #c82333, #0056b3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(220, 53, 69, 0.4);
+}
+
+.btn-white {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+  color: white;
+  border: none;
+}
+
+.btn-white:hover {
+  background: linear-gradient(45deg, #c82333, #0056b3);
+  color: white;
+}
+
+.progress-bar {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+}
+
+.skill-mf .progress .progress-bar {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+}
+
+.ftco-section {
+  background: #000000;
+}
+
+.ftco-footer {
+  background: #000000;
+}
+
+/* Dark grey for brighter areas */
+.text-primary {
+  color: #4a4a4a !important;
+}
+
+.bg-primary {
+  background-color: #4a4a4a !important;
+}
+
+.ftco-navbar-light .navbar-brand {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+/* Project cards with red-blue theme */
+.project-item {
+  background: linear-gradient(135deg, rgba(220, 53, 69, 0.1), rgba(0, 123, 255, 0.1));
+  border: 1px solid rgba(220, 53, 69, 0.2);
+  transition: all 0.3s ease;
+}
+
+.project-item:hover {
+  background: linear-gradient(135deg, rgba(220, 53, 69, 0.2), rgba(0, 123, 255, 0.2));
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(220, 53, 69, 0.3);
+}
+
+/* Complete Black Background Theme */
+body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.ftco-navbar {
+  background-color: #000000 !important;
+  border-bottom: 1px solid rgba(220, 53, 69, 0.3);
+}
+
+.hero-wrap {
+  background-color: #000000 !important;
+}
+
+.hero-wrap .overlay {
+  background: linear-gradient(135deg, rgba(220, 53, 69, 0.9), rgba(0, 123, 255, 0.9));
+}
+
+.ftco-section {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.ftco-footer {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* All text elements in red-blue gradient */
+h1, h2, h3, h4, h5, h6 {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #ffffff !important;
+}
+
+/* Fix navigation text visibility */
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: #ffffff !important;
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.ftco-navbar-light .navbar-brand {
+  color: #ffffff !important;
+  background: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+p, span, div, li {
+  color: #ffffff !important;
+  line-height: 1.6 !important;
+}
+
+/* Fix text spacing and visibility */
+.ftco-section p {
+  color: #ffffff !important;
+  line-height: 1.8 !important;
+  margin-bottom: 15px !important;
+}
+
+.ftco-section h1, .ftco-section h2, .ftco-section h3, .ftco-section h4, .ftco-section h5, .ftco-section h6 {
+  color: #ffffff !important;
+  margin-bottom: 20px !important;
+  line-height: 1.4 !important;
+}
+
+/* Fix about me section text - More specific selectors */
+.ftco-about ul.about-info li span:first-child {
+  color: #dc3545 !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  display: inline-block !important;
+  width: 150px !important;
+  margin-right: 15px !important;
+}
+
+.ftco-about ul.about-info li span:last-child {
+  color: #007bff !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  margin-left: 10px !important;
+}
+
+.ftco-about ul.about-info li {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  line-height: 2.5 !important;
+  margin-bottom: 25px !important;
+  padding: 15px 0 !important;
+  border-bottom: 1px solid rgba(220, 53, 69, 0.3) !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ftco-about ul.about-info li:last-child {
+  border-bottom: none !important;
+}
+
+/* Additional about info styling */
+.about-info .title-s {
+  color: #dc3545 !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  margin-right: 10px !important;
+  display: inline-block !important;
+}
+
+.about-info span {
+  color: #007bff !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  margin-left: 5px !important;
+}
+
+.about-info p {
+  color: #ffffff !important;
+  font-size: 16px !important;
+  line-height: 2.2 !important;
+  margin-bottom: 20px !important;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid rgba(220, 53, 69, 0.2) !important;
+}
+
+.about-info p:last-child {
+  border-bottom: none !important;
+}
+
+/* Fix skills section */
+.skill-mf .title-s {
+  color: #dc3545 !important;
+  font-weight: bold !important;
+}
+
+.skill-mf .pull-right {
+  color: #007bff !important;
+  font-weight: bold !important;
+}
+
+/* Fix contact section */
+.contact-info .icon {
+  color: #dc3545 !important;
+}
+
+.contact-info p {
+  color: #ffffff !important;
+  margin-bottom: 10px !important;
+}
+
+/* Fix project section */
+.project-item .heading {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
+}
+
+.project-item .heading a {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.project-item .heading a:hover {
+  color: #dc3545 !important;
+}
+
+/* Cards and containers */
+.card, .block-20, .project-item {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid rgba(220, 53, 69, 0.3) !important;
+  color: #ffffff !important;
+}
+
+/* Form elements */
+.form-control {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  border: 1px solid rgba(220, 53, 69, 0.5) !important;
+  color: #ffffff !important;
+}
+
+.form-control:focus {
+  border-color: #dc3545 !important;
+  box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+}
+
+/* Progress bars */
+.progress {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Tables */
+table {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  color: #ffffff !important;
+}
+
+th, td {
+  border-color: rgba(220, 53, 69, 0.3) !important;
+  color: #ffffff !important;
+}
+
+/* Links */
+a {
+  color: #007bff !important;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #dc3545 !important;
+  text-decoration: none;
+}
+
+/* Social media icons */
+.ftco-footer-social li a {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+  color: #ffffff !important;
+}
+
+.ftco-footer-social li a:hover {
+  background: linear-gradient(45deg, #c82333, #0056b3);
+  transform: translateY(-3px);
+}
+
+/* Additional black background overrides */
+* {
+  background-color: transparent !important;
+}
+
+body, html {
+  background-color: #000000 !important;
+}
+
+.container, .row, .col {
+  background-color: transparent !important;
+}
+
+/* Typing animation with red-blue gradient */
+#typing-animation {
+  background: linear-gradient(45deg, #dc3545, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* About section styling */
+.about-info {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid rgba(220, 53, 69, 0.3) !important;
+  color: #ffffff !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+}
+
+.about-info p, .about-info span, .about-info div {
+  color: #ffffff !important;
+  line-height: 1.6 !important;
+  margin-bottom: 10px !important;
+}
+
+/* Skills section */
+.skill-mf {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid rgba(220, 53, 69, 0.3) !important;
+  color: #ffffff !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+}
+
+.skill-mf span {
+  color: #ffffff !important;
+  font-size: 14px !important;
+  line-height: 1.4 !important;
+}
+
+/* Education section */
+.timeline {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid rgba(220, 53, 69, 0.3) !important;
+  color: #ffffff !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+}
+
+.timeline p, .timeline span, .timeline div {
+  color: #ffffff !important;
+  line-height: 1.6 !important;
+}
+
+/* Contact section */
+.contact-info {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid rgba(220, 53, 69, 0.3) !important;
+  color: #ffffff !important;
+  padding: 30px !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+.contact-info p, .contact-info span, .contact-info div {
+  color: #ffffff !important;
+  line-height: 2.5 !important;
+  margin-bottom: 20px !important;
+  font-size: 18px !important;
+  padding: 10px 0 !important;
+  border-bottom: 1px solid rgba(220, 53, 69, 0.2) !important;
+}
+
+.contact-info p:last-child {
+  border-bottom: none !important;
+}
+
+.contact-info .icon {
+  color: #dc3545 !important;
+  margin-right: 15px !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.contact-info a {
+  color: #007bff !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+
+.contact-info a:hover {
+  color: #dc3545 !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+
+/* Contact section specific styling */
+.contact-info .ftco-animate {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  line-height: 2.5 !important;
+  margin-bottom: 20px !important;
+}
+
+.contact-info .ftco-animate .icon {
+  color: #dc3545 !important;
+  font-size: 24px !important;
+  margin-right: 15px !important;
+}
+
+/* More specific contact styling - Fixed overwrite */
+.ftco-contact .contact-info .icon {
+  color: #dc3545 !important;
+  font-size: 24px !important;
+  margin-right: 15px !important;
+  font-weight: bold !important;
+  display: inline-block !important;
+  width: 30px !important;
+}
+
+.ftco-contact .contact-info p {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  line-height: 2.5 !important;
+  margin-bottom: 20px !important;
+  padding: 15px 0 !important;
+  border-bottom: 1px solid rgba(220, 53, 69, 0.2) !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ftco-contact .contact-info p:last-child {
+  border-bottom: none !important;
+}
+
+.ftco-contact .contact-info a {
+  color: #007bff !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  margin-left: 10px !important;
+}
+
+.ftco-contact .contact-info a:hover {
+  color: #dc3545 !important;
+  text-decoration: underline !important;
+  font-weight: bold !important;
+}
+
+/* Project section fixes */
+.project-item {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid rgba(220, 53, 69, 0.3) !important;
+  color: #ffffff !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
+}
+
+.project-item h3, .project-item p {
+  color: #ffffff !important;
+  line-height: 1.6 !important;
+}
+
+/* All buttons red-blue gradient */
+.btn {
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  border: none !important;
+  color: #ffffff !important;
+  transition: all 0.3s ease !important;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #c82333, #0056b3) !important;
+  color: #ffffff !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 15px rgba(220, 53, 69, 0.4) !important;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #c82333, #0056b3) !important;
+  color: #ffffff !important;
+}
+
+.btn-white {
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.btn-white:hover {
+  background: linear-gradient(45deg, #c82333, #0056b3) !important;
+  color: #ffffff !important;
+}
+
+/* GitHub button specific styling - Like CV download button */
+.btn-primary.py-3.px-5 {
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  border: 2px solid #dc3545 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  text-shadow: none !important;
+  transition: all 0.3s ease !important;
+  border-radius: 25px !important;
+  padding: 15px 30px !important;
+}
+
+.btn-primary.py-3.px-5:hover {
+  background: linear-gradient(45deg, #c82333, #0056b3) !important;
+  border: 2px solid #007bff !important;
+  color: #ffffff !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 5px 20px rgba(220, 53, 69, 0.5) !important;
+  font-weight: bold !important;
+}
+
+/* GitHub button in about section - Like CV button */
+.about-info .btn-primary {
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  border: 2px solid #dc3545 !important;
+  color: #ffffff !important;
+  font-weight: bold !important;
+  font-size: 16px !important;
+  padding: 15px 30px !important;
+  border-radius: 25px !important;
+  transition: all 0.3s ease !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+}
+
+.about-info .btn-primary:hover {
+  background: linear-gradient(45deg, #c82333, #0056b3) !important;
+  border: 2px solid #007bff !important;
+  color: #ffffff !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 5px 20px rgba(220, 53, 69, 0.5) !important;
+  text-decoration: none !important;
+}
+
+/* Achievement section buttons - Red blue border style */
+.ftco-counter .counter-wrap .text .number {
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: bold !important;
+  font-size: 2.5rem !important;
+}
+
+.ftco-counter .counter-wrap .text p {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.ftco-counter .counter-wrap {
+  border: 2px solid rgba(220, 53, 69, 0.3) !important;
+  border-radius: 15px !important;
+  padding: 20px !important;
+  background: rgba(0, 0, 0, 0.8) !important;
+  transition: all 0.3s ease !important;
+}
+
+.ftco-counter .counter-wrap:hover {
+  border: 2px solid rgba(0, 123, 255, 0.5) !important;
+  transform: translateY(-5px) !important;
+  box-shadow: 0 10px 25px rgba(220, 53, 69, 0.3) !important;
+}
+
+/* Question box styling */
+.ftco-section .container .row .col-md-12 h2 {
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: #ffffff !important;
+}
+
+.ftco-section .container .row .col-md-12 h2 a {
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: #ffffff !important;
+}
+
+/* Have a Question button styling */
+.ftco-section .container .row .col-md-12 h2 a.btn {
+  background-color: #000000 !important;
+  border: 2px solid #dc3545 !important;
+  color: #ffffff !important;
+  padding: 15px 30px !important;
+  border-radius: 25px !important;
+  font-weight: bold !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  transition: all 0.3s ease !important;
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+.ftco-section .container .row .col-md-12 h2 a.btn:hover {
+  background-color: #000000 !important;
+  border: 2px solid #007bff !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4) !important;
+  background: linear-gradient(45deg, #007bff, #dc3545) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* Alternative styling for Have a Question button */
+.ftco-section .btn-primary.py-3.px-5 {
+  background-color: #000000 !important;
+  border: 2px solid #dc3545 !important;
+  color: #ffffff !important;
+  background: linear-gradient(45deg, #dc3545, #007bff) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: bold !important;
+  transition: all 0.3s ease !important;
+}
+
+.ftco-section .btn-primary.py-3.px-5:hover {
+  background-color: #000000 !important;
+  border: 2px solid #007bff !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 5px 15px rgba(220, 53, 69, 0.4) !important;
+  background: linear-gradient(45deg, #007bff, #dc3545) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -878,7 +1541,7 @@ pre {
 .underline {
   width: 100%;
   height: 4px;
-  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(244, 244, 125) 20%,rgb(238, 238, 36) 50%, #ffbd39 100%);
+  background-image: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(100, 100, 100) 20%,rgb(80, 80, 80) 50%, #4a4a4a 100%);
   margin-top: 5px;
   opacity: 50%; }
   .col-md-1 {
@@ -1456,7 +2119,7 @@ pre {
 .table-warning,
 .table-warning > th,
 .table-warning > td {
-  background-color: #ffc107; }
+  background-color: #4a4a4a; }
 
 .table-warning th,
 .table-warning td,
@@ -1468,7 +2131,7 @@ pre {
   background-color: #a5b4fc; }
   .table-hover .table-warning:hover > td,
   .table-hover .table-warning:hover > th {
-    background-color: #ffc107; }
+    background-color: #4a4a4a; }
 
 .table-danger,
 .table-danger > th,
@@ -2185,8 +2848,8 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107; }
+  background-color: #4a4a4a;
+  border-color: #4a4a4a; }
   .btn-warning:hover {
     color: #212529;
     background-color: #e0a800;
@@ -2196,8 +2859,8 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 0.2rem rgba(222, 170, 12, 0.5); }
   .btn-warning.disabled, .btn-warning:disabled {
     color: #212529;
-    background-color: #ffc107;
-    border-color: #ffc107; }
+    background-color: #4a4a4a;
+    border-color: #4a4a4a; }
   .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active,
   .show > .btn-warning.dropdown-toggle {
     color: #212529;
@@ -2376,23 +3039,23 @@ fieldset:disabled a.btn {
       box-shadow: 0 0 0 0.2rem rgba(23, 162, 184, 0.5); }
 
 .btn-outline-warning {
-  color: #ffc107;
-  border-color: #ffc107; }
+  color: #4a4a4a;
+  border-color: #4a4a4a; }
   .btn-outline-warning:hover {
     color: #212529;
-    background-color: #ffc107;
-    border-color: #ffc107; }
+    background-color: #4a4a4a;
+    border-color: #4a4a4a; }
   .btn-outline-warning:focus, .btn-outline-warning.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5); }
   .btn-outline-warning.disabled, .btn-outline-warning:disabled {
-    color: #ffc107;
+    color: #4a4a4a;
     background-color: transparent; }
   .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-outline-warning:not(:disabled):not(.disabled).active,
   .show > .btn-outline-warning.dropdown-toggle {
     color: #212529;
-    background-color: #ffc107;
-    border-color: #ffc107; }
+    background-color: #4a4a4a;
+    border-color: #4a4a4a; }
     .btn-outline-warning:not(:disabled):not(.disabled):active:focus, .btn-outline-warning:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-warning.dropdown-toggle:focus {
       -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.5);
@@ -4170,7 +4833,7 @@ input[type="button"].btn-block {
 
 .badge-warning {
   color: #212529;
-  background-color: #ffc107; }
+  background-color: #4a4a4a; }
   a.badge-warning:hover, a.badge-warning:focus {
     color: #212529;
     background-color: #d39e00; }
@@ -4595,10 +5258,10 @@ input[type="button"].btn-block {
 
 .list-group-item-warning {
   color: #856404;
-  background-color: #ffc107; }
+  background-color: #4a4a4a; }
   .list-group-item-warning.list-group-item-action:hover, .list-group-item-warning.list-group-item-action:focus {
     color: #856404;
-    background-color: #ffc107; }
+    background-color: #4a4a4a; }
   .list-group-item-warning.list-group-item-action.active {
     color: #fff;
     background-color: #856404;
@@ -5394,7 +6057,7 @@ button.bg-info:focus {
   background-color: #117a8b !important; }
 
 .bg-warning {
-  background-color: #ffc107 !important; }
+  background-color: #4a4a4a !important; }
 
 a.bg-warning:hover, a.bg-warning:focus,
 button.bg-warning:hover,
@@ -5474,7 +6137,7 @@ button.bg-dark:focus {
   border-color: #17a2b8 !important; }
 
 .border-warning {
-  border-color: #ffc107 !important; }
+  border-color: #4a4a4a !important; }
 
 .border-danger {
   border-color: #dc3545 !important; }
@@ -8028,7 +8691,7 @@ a.text-info:hover, a.text-info:focus {
   color: #0f6674 !important; }
 
 .text-warning {
-  color: #ffc107 !important; }
+  color: #4a4a4a !important; }
 
 a.text-warning:hover, a.text-warning:focus {
   color: #ba8b00 !important; }
@@ -8162,10 +8825,10 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #ffbd39; }
+  color: #4a4a4a; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #ffbd39;
+    color: #4a4a4a;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8175,7 +8838,7 @@ h1, h2, h3, h4, h5,
   font-weight: 400; }
 
 .text-primary {
-  color: #ffbd39 !important; }
+  color: #4a4a4a !important; }
 
 .ftco-navbar-light {
   background: transparent !important;
@@ -8233,7 +8896,7 @@ h1, h2, h3, h4, h5,
         height: 2px;
         bottom: 0;
         left: 0;
-        background: #ffbd39;
+        background: #4a4a4a;
         visibility: visible;
         -webkit-transform: scaleX(0);
         -moz-transform: scaleX(0);
@@ -8261,12 +8924,12 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
     color: #fff;
-    border: 1px solid #ffbd39;
+    border: 1px solid #4a4a4a;
     padding-top: .7rem;
     padding-bottom: .7rem;
     padding-left: 18px;
     padding-right: 18px;
-    background: #ffbd39;
+    background: #4a4a4a;
     margin-top: 0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -8276,15 +8939,15 @@ h1, h2, h3, h4, h5,
       display: inline-block;
       color: #fff; }
     .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
-      background: #ffbd39;
-      border: 1px solid #ffbd39; }
+      background: #4a4a4a;
+      border: 1px solid #4a4a4a; }
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored a {
     border: 1px solid #a0f669;
     background: #a0f669 !important; }
   .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active {
     background: transparent;
     background: none;
-    color: #ffbd39; }
+    color: #4a4a4a; }
     .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active span:before {
       visibility: visible;
       -webkit-transform: scaleX(1);
@@ -8292,7 +8955,7 @@ h1, h2, h3, h4, h5,
       transform: scaleX(1); }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-      color: #ffbd39; } }
+      color: #4a4a4a; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
@@ -8303,7 +8966,7 @@ h1, h2, h3, h4, h5,
     letter-spacing: .1em; }
     .ftco-navbar-light .navbar-toggler:hover, .ftco-navbar-light .navbar-toggler:focus {
       text-decoration: none;
-      color: #ffbd39;
+      color: #4a4a4a;
       outline: none !important; }
   .ftco-navbar-light.scrolled {
     position: fixed;
@@ -8323,10 +8986,10 @@ h1, h2, h3, h4, h5,
           padding-right: 0 !important;
           padding-bottom: 20px !important; } }
     .ftco-navbar-light.scrolled .nav-item.active > a {
-      color: #ffbd39 !important; }
+      color: #4a4a4a !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
-      background: #ffbd39;
+      background: #4a4a4a;
       border: none !important;
       padding-top: 0.5rem !important;
       padding-bottom: .5rem !important;
@@ -8341,7 +9004,7 @@ h1, h2, h3, h4, h5,
         display: inline-block;
         color: #fff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-      border-color: #ffbd39; }
+      border-color: #4a4a4a; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
@@ -8360,7 +9023,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       color: #000000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #ffbd39 !important; }
+        color: #4a4a4a !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -8535,7 +9198,7 @@ h1, h2, h3, h4, h5,
           font-size: 14px;
           letter-spacing: 3px;
           text-transform: uppercase;
-          color: #ffbd39; }
+          color: #4a4a4a; }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           position: relative;
           z-index: 1; }
@@ -8546,7 +9209,7 @@ h1, h2, h3, h4, h5,
           font-weight: 800; }
           .owl-carousel.home-slider .slider-item .slider-text h1 span {
             font-weight: 800;
-            color: #ffbd39; }
+            color: #4a4a4a; }
           @media (max-width: 991.98px) {
             .owl-carousel.home-slider .slider-item .slider-text h1 {
               color: #fff;
@@ -8568,7 +9231,7 @@ h1, h2, h3, h4, h5,
               color: rgba(255, 255, 255, 0.7);
               font-size: 23px; } }
         .owl-carousel.home-slider .slider-item .slider-text .btn-custom {
-          bordeR: 1px solid #ffbd39;
+          bordeR: 1px solid #4a4a4a;
           padding: 5px 20px;
           text-transform: uppercase;
           font-size: 12px;
@@ -8611,7 +9274,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .owl-nav .owl-prev:hover span:before, .owl-carousel.home-slider .owl-nav .owl-prev:focus span:before {
             font-size: 20px;
             margin-top: 7px;
-            color: #ffbd39; }
+            color: #4a4a4a; }
       .owl-carousel.home-slider .owl-nav .owl-next {
         top: 0 !important;
         right: 0 !important; }
@@ -8624,7 +9287,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .owl-nav .owl-next:hover span:before, .owl-carousel.home-slider .owl-nav .owl-next:focus span:before {
             font-size: 24px;
             margin-top: 7px;
-            color: #ffbd39; }
+            color: #4a4a4a; }
     .owl-carousel.home-slider .owl-dots {
       position: absolute;
       left: 0;
@@ -8693,9 +9356,9 @@ h1, h2, h3, h4, h5,
     .slider-text .breadcrumbs span a {
       color: rgba(255, 255, 255, 0.8); }
       .slider-text .breadcrumbs span a:hover, .slider-text .breadcrumbs span a:focus {
-        color: #ffbd39; }
+        color: #4a4a4a; }
         .slider-text .breadcrumbs span a:hover i, .slider-text .breadcrumbs span a:focus i {
-          color: #ffbd39; }
+          color: #4a4a4a; }
 
 .slider-text .bread {
   font-weight: 700;
@@ -8709,7 +9372,7 @@ h1, h2, h3, h4, h5,
   background: #191919 !important; }
 
 .bg-primary {
-  background: #ffbd39; }
+  background: #4a4a4a; }
 
 .btn {
   cursor: pointer;
@@ -8727,20 +9390,20 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #ffbd39;
-    border: 1px solid #ffbd39 !important;
+    background: #4a4a4a;
+    border: 1px solid #4a4a4a !important;
     color: #000000 !important; }
     .btn.btn-primary:hover {
-      border: 1px solid #ffbd39 !important;
-      background: #ffbd39 !important;
+      border: 1px solid #4a4a4a !important;
+      background: #4a4a4a !important;
       color: #000000 !important; }
     .btn.btn-primary.btn-outline-primary {
-      border: 2px solid #ffbd39 !important;
+      border: 2px solid #4a4a4a !important;
       background: transparent !important;
-      color: #ffbd39 !important; }
+      color: #4a4a4a !important; }
       .btn.btn-primary.btn-outline-primary:hover {
         border: 2px solid transparent !important;
-        background: #ffbd39 !important;
+        background: #4a4a4a !important;
         color: #fff !important; }
   .btn.btn-secondary {
     background: #a0f669 !important;
@@ -8772,7 +9435,7 @@ h1, h2, h3, h4, h5,
       color: #fff !important; }
       .btn.btn-white.btn-outline-white:hover {
         border: 1px solid transparent;
-        background: #ffbd39;
+        background: #4a4a4a;
         color: #fff; }
 
 .ftco-about .img-about {
@@ -8807,7 +9470,7 @@ h1, h2, h3, h4, h5,
     color: #fff; }
   .ftco-about .counter-wrap .text p span.number {
     font-weight: 600;
-    color: #ffbd39; }
+    color: #4a4a4a; }
 
 .resume-wrap {
   width: 100%;
@@ -8821,7 +9484,7 @@ h1, h2, h3, h4, h5,
   .resume-wrap .date {
     font-weight: 900;
     font-size: 26px;
-    color: #ffbd39; }
+    color: #4a4a4a; }
   .resume-wrap h2 {
     font-size: 26px; }
   .resume-wrap .position {
@@ -8844,7 +9507,7 @@ h1, h2, h3, h4, h5,
     .services-1 .icon i {
       font-size: 60px;
       line-height: 1.0;
-      color: #ffbd39; }
+      color: #4a4a4a; }
   .services-1 .desc h3 {
     line-height: 1.3;
     font-size: 13px;
@@ -8861,7 +9524,7 @@ h1, h2, h3, h4, h5,
       content: '';
       width: 30px;
       height: 1px;
-      background: #ffbd39;
+      background: #4a4a4a;
       margin: 0 auto; }
     .services-1 .desc h3 a {
       color: #fff; }
@@ -8874,9 +9537,9 @@ h1, h2, h3, h4, h5,
     text-transform: uppercase;
     font-size: 12px;
     margin-bottom: 10px;
-    color: #ffbd39; }
+    color: #4a4a4a; }
   .services-1:hover {
-    background: #ffbd39; }
+    background: #4a4a4a; }
     .services-1:hover .icon i {
       color: #fff; }
     .services-1:hover h3 {
@@ -8900,7 +9563,7 @@ h1, h2, h3, h4, h5,
   overflow: visible; }
 
 .progress-bar {
-  background: #ffbd39;
+  background: #4a4a4a;
   -webkit-box-shadow: none;
   box-shadow: none;
   font-size: 12px;
@@ -8920,7 +9583,7 @@ h1, h2, h3, h4, h5,
     width: 34px;
     height: 34px;
     content: '';
-    background: #ffbd39;
+    background: #4a4a4a;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -8935,14 +9598,14 @@ h1, h2, h3, h4, h5,
     color: #fff; }
 
 .ftco-hireme {
-  background: #ffbd39;
+  background: #4a4a4a;
   z-index: -1; }
   .ftco-hireme h2 {
     color: #fff;
     font-size: 40px;
     font-weight: 900; }
     .ftco-hireme h2 span {
-      color: #ffbd39; }
+      color: #4a4a4a; }
 
 @media (min-width: 992px) {
   .margin-top {
@@ -8985,7 +9648,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: 0;
-    background: #ffbd39;
+    background: #4a4a4a;
     z-index: -1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -9025,7 +9688,7 @@ h1, h2, h3, h4, h5,
     opacity: 1; }
 
 .aside-stretch {
-  background: #ffce6c; }
+  background: #4a4a4a; }
   .aside-stretch:after {
     position: absolute;
     top: 0;
@@ -9033,7 +9696,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     width: 360%;
-    background: #ffce6c; }
+    background: #4a4a4a; }
   @media (max-width: 767.98px) {
     .aside-stretch {
       background: transparent; }
@@ -9068,7 +9731,7 @@ textarea.form-control {
   visibility: hidden; }
 
 .bg-primary {
-  background: #ffbd39 !important; }
+  background: #4a4a4a !important; }
 
 .about-author {
   -webkit-border-radius: 5px;
@@ -9159,12 +9822,12 @@ textarea.form-control {
   .footer-small-nav > li a {
     margin: 0 10px 10px 0; }
     .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
-      color: #ffbd39; }
+      color: #4a4a4a; }
 
 .media .ftco-icon {
   width: 100px; }
   .media .ftco-icon span {
-    color: #ffbd39; }
+    color: #4a4a4a; }
 
 #map {
   width: 100%; }
@@ -9288,7 +9951,7 @@ textarea.form-control {
 .ftco-counter .text strong.number {
   font-weight: 700;
   font-size: 30px;
-  color: #ffbd39;
+  color: #4a4a4a;
   display: block; }
 
 .ftco-counter .text span {
@@ -9304,7 +9967,7 @@ textarea.form-control {
   display: block;
   font-size: 72px;
   font-weight: bold;
-  color: #ffbd39; }
+  color: #4a4a4a; }
 
 .ftco-counter .ftco-label {
   font-size: 12px;
@@ -9339,7 +10002,7 @@ textarea.form-control {
       .blog-entry .text .heading a {
         color: #fff; }
         .blog-entry .text .heading a:hover, .blog-entry .text .heading a:focus, .blog-entry .text .heading a:active {
-          color: #ffbd39; }
+          color: #4a4a4a; }
   .blog-entry .meta {
     display: inline-block;
     margin-right: 5px;
@@ -9348,11 +10011,11 @@ textarea.form-control {
     text-transform: uppercase;
     letter-spacing: 2px; }
     .blog-entry .meta span {
-      color: #ffbd39; }
+      color: #4a4a4a; }
     .blog-entry .meta a {
-      color: #ffbd39; }
+      color: #4a4a4a; }
       .blog-entry .meta a:hover {
-        color: #ffbd39; }
+        color: #4a4a4a; }
 
 .block-23 ul {
   padding: 0; }
@@ -9421,7 +10084,7 @@ textarea.form-control {
     -ms-border-radius: 50%;
     border-radius: 50%; }
     .contact-section .box .icon span {
-      color: #ffbd39;
+      color: #4a4a4a;
       font-size: 30px; }
   .contact-section .box h3 {
     font-size: 17px;
@@ -9471,7 +10134,7 @@ textarea.form-control {
     .block-21 .text .heading a {
       color: #fff; }
       .block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
-        color: #ffbd39; }
+        color: #4a4a4a; }
   .block-21 .text .meta > div {
     display: inline-block;
     margin-right: 5px; }
@@ -9543,7 +10206,7 @@ textarea.form-control {
         font-size: 13px;
         letter-spacing: .1em;
         color: rgba(255, 255, 255, 0.3);
-        color: #ffbd39;
+        color: #4a4a4a;
         font-weight: 600;
         margin-bottom: 20px; }
       .comment-list li .comment-body .reply {
@@ -9608,7 +10271,7 @@ textarea.form-control {
         top: 0;
         color: #ccc; }
       .categories li a:hover, .categories li a:focus, .sidelink li a:hover, .sidelink li a:focus {
-        color: #ffbd39; }
+        color: #4a4a4a; }
     .categories li.active a, .sidelink li.active a {
       color: #000000;
       font-style: italic; }
